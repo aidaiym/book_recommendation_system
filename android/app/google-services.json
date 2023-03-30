@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "781958227421",
+    "project_id": "book-recommendation-syst-db24e",
+    "storage_bucket": "book-recommendation-syst-db24e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781958227421:android:495aa0b72971d6d5810234",
+        "android_client_info": {
+          "package_name": "com.example.book_recommendation_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781958227421-9adi1qg15f9ad07llt46gbpi2vcjgiog.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.book_recommendation_system",
+            "certificate_hash": "43d8cd7221daa3f9367a37b9683e16b935573b23"
+          }
+        },
+        {
+          "client_id": "781958227421-n6ktt9ptc8dg89mm41b8enoce4687n90.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL1zht9D6PRh2wYNK8YE5GpVVpbuUbFBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781958227421-jbb5mroorabeo5d743me2ive8e9h1fsf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "781958227421-qj8obk5mnpo00nu442krdr605rvn63tm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.bookRecommendationSystem"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
