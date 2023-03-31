@@ -8,3 +8,19 @@ void main() async {
   await Firebase.initializeApp();
   runApp(const MyApp());
 }
+
+class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Система рекоментации книг',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      initialRoute: LoginScreen.id,
+      onGenerateRoute: MyRouter.generateRoute,
+    );
+  }
+}
