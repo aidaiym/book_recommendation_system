@@ -3,13 +3,23 @@ class User {
   int age;
   String sex;
   String email;
-  User(
-      {required this.name,
-      required this.age,
-      required this.sex,
-      required this.email});
+  // String role;
+
+  User({
+    required this.name,
+    required this.age,
+    required this.sex,
+    required this.email,
+    // required this.role,
+  });
 
   Map<String, dynamic> toMap() {
-    return {'name': name, 'age': age, 'sex': sex, 'email': email};
+    return {
+      'name': name,
+      'age': age,
+      'sex': sex,
+      'email': email,
+      // 'role': role,
+    };
   }
 }

@@ -14,12 +14,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Система рекоментации книг',
+      title: 'Система рекомендации книг',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      initialRoute: LoginScreen.id,
+      initialRoute: AdminDash.id,
       onGenerateRoute: MyRouter.generateRoute,
     );
   }
