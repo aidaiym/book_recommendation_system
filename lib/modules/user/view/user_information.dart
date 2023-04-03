@@ -23,7 +23,8 @@ class _UserInformationState extends State<UserInformation> {
       final age = int.parse(_ageController.text);
       final sex = _sexController.text;
       final email = AuthenticationService.auth.currentUser!.email;
-      final users = User(name: name, age: age, sex: sex, email: email!);
+      final users =
+          User(name: name, age: age, sex: sex, email: email!, isAdmin: false);
       await FirebaseFirestore.instance.collection('users').add(users.toMap());
       Navigator.pushNamed(context, MainView.id);
     }

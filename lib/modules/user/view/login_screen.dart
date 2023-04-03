@@ -126,7 +126,12 @@ class _LoginScreenState extends State<LoginScreen> {
 
                       if (status == AuthStatus.successful) {
                         LoaderX.hide();
-                        Navigator.pushNamed(context, MainView.id);
+                        if (AuthenticationService.auth.currentUser!.email ==
+                            'omurbekovnaaidaiym@gmail.com') {
+                          Navigator.pushNamed(context, AdminDash.id);
+                        } else {
+                          Navigator.pushNamed(context, MainView.id);
+                        }
                       } else {
                         LoaderX.hide();
                         final error =

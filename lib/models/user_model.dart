@@ -3,14 +3,14 @@ class User {
   int age;
   String sex;
   String email;
-  // String role;
+  bool isAdmin;
 
   User({
     required this.name,
     required this.age,
     required this.sex,
     required this.email,
-    // required this.role,
+    required this.isAdmin,
   });
 
   Map<String, dynamic> toMap() {
@@ -19,7 +19,7 @@ class User {
       'age': age,
       'sex': sex,
       'email': email,
-      // 'role': role,
+      'isAdmin': isAdmin,
     };
   }
 }
