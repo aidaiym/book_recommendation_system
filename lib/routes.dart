@@ -23,7 +23,7 @@ class MyRouter {
       case UserInformation.id:
         return MaterialPageRoute(builder: (_) => const UserInformation());
       case AdminDash.id:
-        return MaterialPageRoute(builder: (_) => const AdminDash());
+        return MaterialPageRoute(builder: (_) => AdminDash());
       case AddBookScreen.id:
         return MaterialPageRoute(builder: (_) => const AddBookScreen());
 

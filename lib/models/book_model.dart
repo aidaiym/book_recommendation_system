@@ -8,6 +8,7 @@ class Book {
   String description;
   String imageUrl;
   String genre;
+  String category;
   int pageCount;
   int publishedYear;
 
@@ -19,6 +20,7 @@ class Book {
     required this.description,
     required this.imageUrl,
     required this.genre,
+    required this.category,
     required this.pageCount,
     required this.publishedYear,
   });
@@ -35,6 +37,7 @@ class Book {
       genre: data['genre'],
       pageCount: data['pageCount'],
       publishedYear: data['publishedYear'],
+      category: data['category'],
     );
   }
 
@@ -46,6 +49,7 @@ class Book {
       'description': description,
       'imageUrl': imageUrl,
       'genre': genre,
+      'category': category,
       'pageCount': pageCount,
       'publishedYear': publishedYear,
     };

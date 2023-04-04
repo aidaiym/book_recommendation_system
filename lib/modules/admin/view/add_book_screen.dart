@@ -1,10 +1,7 @@
 import 'package:book_recommendation_system/files.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/services.dart';
-import 'package:image_picker/image_picker.dart';
-import 'dart:io';
 
 class AddBookScreen extends StatefulWidget {
   static const String id = 'add_book';
